@@ -7,25 +7,39 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <header class="">
-      <div class="">
+    <header class="px-20 py-6 h-20 w-full flex items-center justify-between">
+      <div class="flex items-center">
         <img
           src="/src/assets/images/landwind-logo.svg"
           alt="logo da landwind"
         />
-        <h1>Landwind</h1>
+        <h1 class="text-gray-900 text-2xl font-semibold ml-3 mr-8">Landwind</h1>
+        <nav class="flex gap-8">
+          <a href="">Company</a>
+          <a href="">Marketplace</a>
+          <a href="">Features</a>
+          <a href="">Team</a>
+          <a href="">Contact</a>
+        </nav>
       </div>
-      <nav>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-      </nav>
-      <div class="">
-        <button>Log In</button>
-        <button>Get started</button>
+      <div class="flex gap-4">
+        <button class="text-sm font-medium">Log In</button>
+        <button class="px-3 py-2 font-medium text-sm text-white bg-purple-600 rounded-lg">Get started</button>
       </div>
     </header>
+    <main class="flex gap-24 justify-center px-20 py-16">
+      <div class="w-[736px] flex flex-col gap-6 py-16">
+        <h1 class="leading-none text-6xl font-black">Building digital products & brands.</h1>
+        <h2 class="text-gray-500 text-xl font-normal">Here at flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</h2>
+        <div class="flex gap-4 mt-10">
+          <button class="flex items-center justify-center text-base font-medium py-3 px-5 bg-purple-600 text-white rounded-lg">Start 30 day free trial</button>
+          <button class="flex items-center justify-center stroke-gray-200 py-3 px-5">Pricing & FAQ</button>
+        </div>
+      </div>
+      
+      <div>
+        <img src="./src/assets/images/marketing-strategy 1.svg" alt="">
+      </div>
+    </main>
   </body>
 </html>
