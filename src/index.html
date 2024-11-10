@@ -13,16 +13,16 @@
         <h1 class="text-gray-900 text-2xl font-semibold ml-3 mr-8">Landwind</h1>
         <nav class="hidden lg:flex gap-8">
           <a href="#" class="text-gray-600 hover:text-gray-900">Company</a>
-          <a href="#" class="text-gray-600 hover:text-gray-900">Marketplace</a>
-          <a href="#" class="text-gray-600 hover:text-gray-900">Features</a>
-          <a href="#" class="text-gray-600 hover:text-gray-900">Team</a>
-          <a href="#" class="text-gray-600 hover:text-gray-900">Contact</a>
+          <a href="#marketplace" class="text-gray-600 hover:text-gray-900">Marketplace</a>
+          <a href="#features" class="text-gray-600 hover:text-gray-900">Features</a>
+          <a href="#team" class="text-gray-600 hover:text-gray-900">Team</a>
+          <a href="#contact" class="text-gray-600 hover:text-gray-900">Contact</a>
         </nav>
       </div>
     
-      <div class="flex items-center gap-4">
-        <button class="text-sm font-medium text-gray-600 hidden lg:inline">Log In</button>
-        <button class="px-3 py-2 font-medium text-sm text-white bg-purple-600 rounded-lg hidden lg:inline">Get started</button>
+      <div class="flex items-center gap-4"> 
+        <button class="text-sm   font-medium text-gray-600 hidden hover:scale-110 lg:inline">Log In</button>
+        <button class="px-3 py-2 font-medium text-sm text-white bg-purple-600 hover:bg-purple-700 rounded-lg hidden lg:inline">Get started</button>
         <button class="lg:hidden flex items-center" onclick="toggleMenu()">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
@@ -42,10 +42,10 @@
         <!-- Navigation Links Centered Vertically -->
         <nav class="flex flex-col items-center gap-6 text-lg font-medium text-gray-800">
           <a href="#" class="hover:text-gray-900">Company</a>
-          <a href="#" class="hover:text-gray-900">Marketplace</a>
-          <a href="#" class="hover:text-gray-900">Features</a>
-          <a href="#" class="hover:text-gray-900">Team</a>
-          <a href="#" class="hover:text-gray-900">Contact</a>
+          <a href="#marketplace" class="hover:text-gray-900">Marketplace</a>
+          <a href="#features" class="hover:text-gray-900">Features</a>
+          <a href="#team" class="hover:text-gray-900">Team</a>
+          <a href="#contact" class="hover:text-gray-900">Contact</a>
         </nav>
     
         <!-- Full Width Buttons -->
@@ -56,15 +56,15 @@
     
 
     <!-- main section -->
-    <main class="flex flex-col lg:flex-row gap-12 lg:gap-24 justify-center items-center px-6 lg:px-20 py-8 lg:py-16">
+    <main id="company" class="flex flex-col lg:flex-row gap-12 lg:gap-24 justify-center items-center px-6 lg:px-20 py-8 lg:py-16">
       <aside class="w-full lg:w-[736px] flex flex-col gap-6 py-8 lg:py-16">
         <div class="flex flex-col gap-6 ">
           <h1 class="leading-none text-3xl md:text-4xl lg:text-6xl font-black">Building digital products & brands.</h1>
           <h2 class="text-gray-500 text-base md:text-lg lg:text-xl font-normal">Here at flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</h2>
         </div>
         <div class="flex flex-col sm:flex-row gap-4 mt-4">
-          <button class="flex items-center justify-center text-base font-medium py-3 px-5 bg-purple-600 text-white rounded-lg">Start 30 day free trial</button>
-          <button class="flex items-center justify-center border border-gray-200 rounded-lg text-gray-800 text-base font-medium py-3 px-5">Pricing & FAQ</button>
+          <button class="flex items-center justify-center text-base font-medium py-3 px-5 bg-purple-600 hover:bg-purple-700 text-white rounded-lg">Start 30 day free trial</button>
+          <button class="flex items-center justify-center border border-gray-200 rounded-lg text-gray-800 hover:bg-gray-300 text-base font-medium py-3 px-5">Pricing & FAQ</button>
         </div>
       </aside>
       
@@ -83,7 +83,7 @@
     </div>
     
 
-    <section class="bg-gray-50 py-12 lg:py-24 px-6 lg:px-20 flex flex-col gap-12 lg:gap-[80px] justify-center items-center">
+    <section id="marketplace" class="bg-gray-50 py-12 lg:py-24 px-6 lg:px-20 flex flex-col gap-12 lg:gap-[80px] justify-center items-center">
       <article class="flex flex-col lg:flex-row items-center lg:items-start">
         <div class="w-full lg:w-[608px] mr-0 lg:mr-16 my-4 lg:my-[25.5px] flex flex-col gap-4">
           <h1 class="leading-tight text-2xl lg:text-4xl font-extrabold text-gray-900 whitespace-nowrap">Work with tools you already use</h1>
@@ -146,7 +146,7 @@
     
 
     <!--TRUSTED WORLDWIDE section-->
-    <section class="flex flex-col lg:flex-row justify-center gap-12 lg:gap-24 py-12 lg:py-24 px-6 lg:px-20">
+    <section id="features" class="flex flex-col lg:flex-row justify-center gap-12 lg:gap-24 py-12 lg:py-24 px-6 lg:px-20">
       <article class="flex justify-center">
         <div class="flex flex-col text-left w-full lg:w-[640px] h-auto lg:h-[292px]">
           <div class="flex gap-4 flex-col mb-6">
@@ -181,7 +181,7 @@
           </h2>
         </div>
         <div class="flex flex-col items-start">
-          <img class="w-12 h-12 mb-4" src="./assets/images/users.svg" alt="">
+          <img class="w-12 h-12 mb-4" src="./assets/images/users.svg" alt=""TRUSTED>
           <h1 class="leading-tight font-bold text-xl lg:text-2xl mb-2 text-gray-900">600M+ Users</h1>
           <h2 class="text-sm lg:text-base font-light text-left text-gray-500 w-full lg:w-[256px]">
             trusted by over 600 million users around the world
@@ -205,7 +205,7 @@
     </section>
     
 
-    <section class="bg-gray-50 py-12 lg:py-24 px-6 lg:px-20 flex gap-6 flex-col items-center justify-center">
+    <section id="team" class="bg-gray-50 py-12 lg:py-24 px-6 lg:px-20 flex gap-6 flex-col items-center justify-center">
       <img class="h-12 w-11" src="./assets/images/icon.svg" alt="">
       <h1 class="text-center w-full max-w-[768px] text-gray-900 leading-relaxed text-lg lg:text-2xl font-semibold px-4">
         "Flowbite is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application."
@@ -258,7 +258,7 @@
             </div>
           </div>
           <div class="flex items-center justify-center mt-6 lg:mt-8">
-            <button class="bg-purple-600 text-white rounded-lg px-5 py-2 lg:py-[10px] w-full lg:w-[336px]">Company</button>
+            <button class="bg-purple-600 text-white rounded-lg px-5 py-2 lg:py-[10px] w-full lg:w-[336px] hover:bg-purple-700">Company</button>
           </div>
         </div>
     
@@ -289,7 +289,7 @@
             </div>
           </div>
           <div class="flex items-center justify-center mt-6 lg:mt-8">
-            <button class="bg-purple-600 text-white rounded-lg px-5 py-2 lg:py-[10px] w-full lg:w-[336px]">Enterprise</button>
+            <button class="bg-purple-600 text-white rounded-lg px-5 py-2 lg:py-[10px] w-full hover:bg-purple-700 lg:w-[336px]">Enterprise</button>
           </div>
         </div>
     
@@ -320,7 +320,7 @@
             </div>
           </div>
           <div class="flex items-center justify-center mt-6 lg:mt-8">
-            <button class="bg-purple-600 text-white rounded-lg px-5 py-2 lg:py-[10px] w-full lg:w-[336px]">Get Started</button>
+            <button class="bg-purple-600 text-white rounded-lg px-5 py-2 lg:py-[10px] w-full lg:w-[336px] hover:bg-purple-700">Get Started</button>
           </div>
         </div>
       </div>
@@ -368,13 +368,13 @@
       <div class="flex gap-4 lg:gap-6 flex-col justify-center items-center w-full max-w-[640px] text-center">
         <h1 class="text-gray-900 leading-tight text-2xl lg:text-4xl font-extrabold">Start your free trial today</h1>
         <p class="text-gray-500 text-base lg:text-xl font-normal">Try Flowbite Platform for 30 days. No credit card required</p>
-        <button class="bg-purple-600 w-full max-w-[199px] py-3 px-5 text-white rounded-lg">Free trial for 30 days</button>
+        <button class="bg-purple-600 w-full max-w-[199px] py-3 px-5 text-white rounded-lg  hover:bg-purple-700">Free trial for 30 days</button>
       </div>
     </section>
     
 
 
-    <footer>
+    <footer id="contact">
       <div class="py-12 lg:py-16 px-6 lg:px-20 flex flex-col gap-12 lg:gap-16 items-center">
         <div class="w-full flex flex-col lg:flex-row justify-between gap-8 lg:gap-0">
           <div class="flex flex-col gap-4 text-center lg:text-left">
@@ -422,10 +422,10 @@
           </div>
           <p class="text-base font-normal text-gray-500">© 2022 Flowbite, Inc. All rights reserved.</p>
           <div class="flex items-center gap-5">
-            <img src="./assets/images/github.svg" alt="GitHub">
-            <img src="./assets/images/twitter.svg" alt="Twitter">
-            <img src="./assets/images/dribbble.svg" alt="Dribbble">
-            <img src="./assets/images/facebook-f.svg" alt="Facebook">
+            <a href="https://www.github.com" target="_blank"><img src="./assets/images/github.svg" alt="GitHub"></a>
+            <a href="https://www.twitter.com" target="_blank"><img src="./assets/images/twitter.svg" alt="Twitter"></a>
+            <a href="https://www.dribble.com" target="_blank"><img src="./assets/images/dribbble.svg" alt="Dribbble"></a>
+            <a href="https://www.facebook.com" target="_blank"><img src="./assets/images/facebook-f.svg" alt="Facebook"></a>
           </div>
         </div>
       </div>
